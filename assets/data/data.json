@@ -1,0 +1,112 @@
+{
+  "elenco": [
+    {
+      "nome": "Alex",
+      "cognome": "Paganucci",
+      "avatar": "assets/img/01.png",
+      "id": 1
+    },
+    {
+      "nome": "Andrea",
+      "cognome": "Cursi",
+      "avatar": "assets/img/02.png",
+      "id": 2
+    },
+    {
+      "nome": "David",
+      "cognome": "Gualberto",
+      "avatar": "assets/img/03.png",
+      "id": 3
+    },
+    {
+      "nome": "Davide",
+      "cognome": "Alfonsi",
+      "avatar": "assets/img/04.png",
+      "id": 4
+    },
+    {
+      "nome": "Ewelina",
+      "cognome": "Czaja",
+      "avatar": "assets/img/05.png",
+      "id": 5
+    },
+    {
+      "nome": "Francesco",
+      "cognome": "Bossoli",
+      "avatar": "assets/img/06.png",
+      "id": 6
+    },
+    {
+      "nome": "Francesco",
+      "cognome": "Lisena",
+      "avatar": "assets/img/07.png",
+      "id": 7
+    },
+    {
+      "nome": "Gennaro",
+      "cognome": "Notaro",
+      "avatar": "assets/img/08.png",
+      "id": 8
+    },
+    {
+      "nome": "Giulia",
+      "cognome": "Franzosi",
+      "avatar": "assets/img/09.png",
+      "id": 9
+    },
+    {
+      "nome": "Giulio",
+      "cognome": "Tomé",
+      "avatar": "assets/img/10.png",
+      "id": 10
+    },
+    {
+      "nome": "Ilaria",
+      "cognome": "Cognata",
+      "avatar": "assets/img/11.png",
+      "id": 11
+    },
+    {
+      "nome": "Lorenzo",
+      "cognome": "Altomonte",
+      "avatar": "assets/img/01.png",
+      "id": 12
+    },
+    {
+      "nome": "Lorenzo",
+      "cognome": "Ciarcianelli",
+      "avatar": "assets/img/13.png",
+      "id": 13
+    },
+    {
+      "nome": "Lorenzo",
+      "cognome": "De Carolis",
+      "avatar": "assets/img/14.png",
+      "id": 14
+    },
+    {
+      "nome": "Marco",
+      "cognome": "Brandi",
+      "avatar": "assets/img/15.png",
+      "id": 15
+    },
+    {
+      "nome": "Marta",
+      "cognome": "Liguori",
+      "avatar": "assets/img/16.png",
+      "id": 16
+    },
+    {
+      "nome": "Maurizio",
+      "cognome": "Villanova",
+      "avatar": "assets/img/17.png",
+      "id": 17
+    },
+    {
+      "nome": "Paolo",
+      "cognome": "Russo",
+      "avatar": "assets/img/18.png",
+      "id": 18
+    }
+  ]
+}

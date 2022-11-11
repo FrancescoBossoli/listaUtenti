@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestione studenti</title>
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css' rel='stylesheet'
+        integrity='sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi' crossorigin='anonymous'>
+        <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js'
+        integrity='sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3'
+        crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/style.css">    
+</head>
+
+<body>
+
+    <header class="container-fluid bg-dark text-white d-flex justify-content-center">
+        <h2>Lista Utenti Dinamica</h2>
+    </header>
+
+    <div class="container pt-3 px-0 mb-2">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="text-center mb-3">FORM DI INSERIMENTO DATI</h3>
+                <form id="form">
+                    <fieldset class="border border-dark rounded-2 p-4 d-flex justify-content-between">
+                        <div class="col-5">
+                            <label for="nome" class="form-label">NOME</label>
+                            <input type="text" id="nome" class="form-control" required>
+                            <label for="cognome" class="form-label">COGNOME</label>
+                            <input type="text" id="cognome" class="form-control" required>
+                            <button type="submit" class="btn btn-primary mt-3" id="scrivi">INVIA</button>
+                        </div>
+                        <div class="col-6 d-flex flex-row flex-wrap px-4 pb-5">
+                            <label class="form-label w-100 mb-0 text-center">AVATAR</label>
+                            <div class="d-flex flex-column align-items-center justify-content-evenly">
+                                <label  for="avatar01" id="pic01"><img src="assets/img/01.png" class="w-10 "></label>
+                                <input type="radio" name="avatar" id="avatar01" checked>
+                            </div>
+                            <div class="d-flex flex-column align-items-center justify-content-evenly">
+                                <label  for="avatar02" id="pic02"><img src="assets/img/02.png" class="w-10 "></label>
+                                <input type="radio" name="avatar" id="avatar02">
+                            </div>
+                            <div class="d-flex flex-column align-items-center justify-content-evenly">
+                                <label  for="avatar03" id="pic03"><img src="assets/img/03.png" class="w-10 "></label>
+                                <input type="radio" name="avatar" id="avatar03">
+                            </div>
+                            <div class="d-flex flex-column align-items-center justify-content-evenly">
+                                <label  for="avatar04" id="pic04"><img src="assets/img/04.png" class="w-10 "></label>
+                                <input type="radio" name="avatar" id="avatar04">
+                            </div>
+                            <div class="d-flex flex-column align-items-center justify-content-evenly">
+                                <label  for="avatar05" id="pic05"><img src="assets/img/05.png" class="w-10 "></label>
+                                <input type="radio" name="avatar" id="avatar05">
+                            </div>
+                            <div class="d-flex flex-column align-items-center justify-content-evenly">
+                                <label  for="avatar06" id="pic06"><img src="assets/img/06.png" class="w-10 "></label>
+                                <input type="radio" name="avatar" id="avatar06">
+                            </div>
+                            <div class="d-flex flex-column align-items-center justify-content-evenly">
+                                <label  for="avatar07" id="pic07"><img src="assets/img/07.png" class="w-10 "></label>
+                                <input type="radio" name="avatar" id="avatar07">
+                            </div>
+                            <div class="d-flex flex-column align-items-center justify-content-evenly">
+                                <label  for="avatar08" id="pic08"><img src="assets/img/08.png" class="w-10 "></label>
+                                <input type="radio" name="avatar" id="avatar08">
+                            </div>
+                            <div class="d-flex flex-column align-items-center justify-content-evenly">
+                                <label  for="avatar09" id="pic09"><img src="assets/img/09.png" class="w-10 "></label>
+                                <input type="radio" name="avatar" id="avatar09">
+                            </div>
+                            <div class="d-flex flex-column align-items-center justify-content-evenly">
+                                <label  for="avatar10" id="pic10"><img src="assets/img/10.png" class="w-10 "></label>
+                                <input type="radio" name="avatar" id="avatar10">
+                            </div>
+                            <div class="d-flex flex-column align-items-center justify-content-evenly">
+                                <label  for="avatar11" id="pic11"><img src="assets/img/11.png" class="w-10 "></label>
+                                <input type="radio" name="avatar" id="avatar11">
+                            </div>
+                            <div class="d-flex flex-column align-items-center justify-content-evenly">
+                                <label  for="avatar12" id="pic12"><img src="assets/img/12.png" class="w-10 "></label>
+                                <input type="radio" name="avatar" id="avatar12">
+                            </div>
+                            <div class="d-flex flex-column align-items-center justify-content-evenly">
+                                <label  for="avatar13" id="pic13"><img src="assets/img/13.png" class="w-10 "></label>
+                                <input type="radio" name="avatar" id="avatar13">
+                            </div>
+                            <div class="d-flex flex-column align-items-center justify-content-evenly">
+                                <label  for="avatar14" id="pic14"><img src="assets/img/14.png" class="w-10 "></label>
+                                <input type="radio" name="avatar" id="avatar14">
+                            </div>
+                            <div class="d-flex flex-column align-items-center justify-content-evenly">
+                                <label  for="avatar15" id="pic15"><img src="assets/img/15.png" class="w-10 "></label>
+                                <input type="radio" name="avatar" id="avatar15">
+                            </div>
+                            <div class="d-flex flex-column align-items-center justify-content-evenly">
+                                <label  for="avatar16" id="pic16"><img src="assets/img/16.png" class="w-10 "></label>
+                                <input type="radio" name="avatar" id="avatar16">
+                            </div>
+                            <div class="d-flex flex-column align-items-center justify-content-evenly">
+                                <label  for="avatar17" id="pic17"><img src="assets/img/17.png" class="w-10 "></label>
+                                <input type="radio" name="avatar" id="avatar17">
+                            </div>
+                            <div class="d-flex flex-column align-items-center justify-content-evenly">
+                                <label  for="avatar18" id="pic18"><img src="assets/img/18.png" class="w-10 "></label>
+                                <input type="radio" name="avatar" id="avatar18">
+                            </div>                           
+
+                        </div>                        
+                    </fieldset>
+                </form>
+                <h4 id="errore"></h4>
+            </div>
+                <h3 id="erroreElenco"></h3> 
+        </div>
+    </div>
+
+    
+  <div class="modal fade" id="popup" tabindex="-1" aria-labelledby="popupLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="popupLabel">Avviso</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Sei sicuro di voler cancellare l'utente selezionato? I dati persi non potranno essere recuperati.
+        </div>
+        <div class="modal-footer">          
+          <button type="button" class="btn btn-primary" onclick="deleteData(deleting)">Sì, sono sicuro</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No, ci ho ripensato</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    
+    <div id="table" class="container border border-dark rounded-2 pb-4 mb-5">
+    
+    </div>
+
+    <script src="assets/js/script.js"></script>
+    
+</body>
+
+</html>
